@@ -12,11 +12,14 @@
 
 body {
     align-items: center;
-    background-color: white;
+    
     color: black;
     display: flex;
     height: 100vh;
     justify-content: center;
+    background-image: url(../images/twitter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fa-twitter {
