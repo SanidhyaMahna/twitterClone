@@ -26,7 +26,7 @@ body {
     width: 12%;
     min-width: 50px;
     font-size: 1.5rem;
-    border-right: 2px solid rgb(133, 133, 133);
+    border-right: 1px solid #ccc;
 }
 
 .nav-link {
@@ -77,7 +77,7 @@ body {
     position: relative;
     overflow-y: scroll;
     height: 100vh;
-    border-right: 2px solid rgb(133, 133, 133);
+    border-right: 1px solid #ccc;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ body {
     padding: 20px;
     font-size: 1.5rem;
     font-weight:600;
-    border-bottom: 2px solid rgb(133, 133, 133);
+    border-bottom: 2px solid #ccc;
 }
 
 /* Backdrop */
@@ -101,7 +101,7 @@ body {
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: rgb(255, 255, 255, 0.1);
+    background-color: #f0f0f06c;
     backdrop-filter: blur(5px);
     width: 100vw;
     height: 100vh;
@@ -118,7 +118,7 @@ body {
     width: 80vw;
     min-width: 320px;
     transform: translateX(-50%);
-    background-color: #000;
+    background-color: #ccc;
     padding: 10px;
     border-radius: 10px;
     max-height: calc(100vh - 200px);
@@ -227,7 +227,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(133, 133, 133);
+    border-bottom: 1px solid #ccc;
 }
 
 .footer i, span {
@@ -283,12 +283,12 @@ body {
 }
 
 .pinned-post-container {
-    border-bottom: 5px solid rgb(133, 133, 133);
+    border-bottom: 5px solid #ccc;
 }
 
 /* Home Page */
 .post-tweet-container, .tweet-container {
-    border-bottom: 5px solid rgb(133, 133, 133);
+    border-bottom: 1px solid #ccc;
     display: flex;
     flex-direction: row;
     padding: 8px;
@@ -345,7 +345,7 @@ textarea:focus-within {
 }
 
 .btn:disabled {
-    background-color: rgb(98, 135, 149);
+    background-color: rgb(148, 148, 148);
     cursor: auto;
 }
 
